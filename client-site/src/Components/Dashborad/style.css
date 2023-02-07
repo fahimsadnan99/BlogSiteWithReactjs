@@ -1,0 +1,50 @@
+.leftListUl {
+    list-style: none;
+    margin-top: 50px;
+}
+
+.leftSideList {
+    background-color: azure;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.534);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* --------------Create Post ------------- */
+.jodit-status-bar {
+    display: none !important;
+}
+.createPostHeading {
+    width: max-content;
+    border-bottom: 4px solid rgba(255, 0, 0, 0.425);
+}
+.postSubmitBtn {
+    border: 0.5px solid rgba(128, 0, 128, 0.267);
+    background: transparent;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: 0.5s all;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.493) ;
+    border-radius: 7px;
+}
+
+.postSubmitBtn:hover {
+    color : #fff;
+    background : purple;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.705) ;
+}
+
+
+@media (max-width : 768px) {
+   .dashboard .leftListUl {
+    
+     padding-left: 0px !important;
+    }
+}

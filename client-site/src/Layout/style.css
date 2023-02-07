@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333;
+    background-color: transparent !important;
+  }
+  
+  .link {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: rgb(17, 16, 16);
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s;
+  }
+
+  .link:hover {
+    background-color: black;
+    color : #fff;
+    border-radius: 5px;
+  }
+
+  .active {
+    background-color: rgb(49, 3, 11);
+    color : #fff;
+    border-radius: 5px;
+  }

@@ -8,3 +8,9 @@
 .cardWrapper {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349);
 }
+
+.heartFill {
+    color : red;
+    font-size: 26px;
+    cursor: pointer;
+}

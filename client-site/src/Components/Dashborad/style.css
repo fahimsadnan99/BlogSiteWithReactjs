@@ -6,14 +6,15 @@
 .leftSideList {
     background-color: azure;
     box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.534);
-    padding: 10px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 5px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
 }
+
 
 /* --------------Create Post ------------- */
 .jodit-status-bar {

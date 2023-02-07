@@ -12,7 +12,7 @@ const Dashboard = () => {
   return (
     <div className='container-fluid '>
        <Row className='dashboard'>
-           <Col xs={12} md={3}  style={{position : "static",height : "100%"}}>
+           <Col xs={12} md={2}  style={{position : "static",height : "100%"}}>
 
 
             <ul className='leftListUl'>
@@ -24,7 +24,7 @@ const Dashboard = () => {
               }
             </ul>
            </Col>
-           <Col xs={12} md={8} className='offset-md-1'  >
+           <Col xs={12} md={9} className='offset-md-1'  >
 
                  {menuName =='All Post' && (<AllPost></AllPost>)}
                  {menuName =='Create Category' && (<CreateCatagory></CreateCatagory>)}
